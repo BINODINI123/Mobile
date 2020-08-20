@@ -1,0 +1,80 @@
+.grid-container {
+	display: grid;
+	align-content:left;
+	width:470px;
+	grid-template-rows: 80px 200px;
+	height:500px;
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	background-color:LightBlue;
+	}
+.grid-item {
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	text-align:left; 
+	}
+.button{
+	border-radius: 8px;
+    border: 1px solid black;
+	margin:14px;
+	height:30px;
+	width:100px;
+	background-color:LightBlue;
+	color:black;
+	text-align:left;
+	font-size: 18px;
+}
+.Left_Side{
+	display: inline-block;
+	background-color: lightblue;
+	height: 40px;
+	width: 100%;
+	text-align:left;
+	justify-content:left;
+	align-items: center;
+	font-weight: bold;
+	border: 1px solid black;
+	margin-top:3px;	
+}
+.Right_Side{
+	background-color: lightblue;
+	height: 10px;
+	width: 100%;
+	margin:3px;
+	font-size:20px;
+	justify-content:;	
+	float:left;
+}
+.Border,.Block{
+	background-color: lightblue;
+	box-sizing: border-box;
+	border: 1px solid black;
+	margin: 10px;
+	padding: 30px;	
+}
+.Border{
+	margin-top:1.5px;
+	text-align: left;
+	width: 45%;
+    height: 120px;
+	float:left;
+}
+.Block{
+	margin-top:0px;
+	width:95%;
+	text-align:left;
+	font-size:20px;
+}
+.Banner{
+	display: inline;
+	flex-direction: row;
+}
+.BlocK{
+	display: inline;
+}
+ .item4{
+	background-color:lightblue;  
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	text-align:left;
+	font-size: 17px;
+	height:20px;
+	width:470px;
+ }
